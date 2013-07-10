@@ -1,6 +1,6 @@
 #Custom SASS Directory Sinatra
 
-The default structure, unmanaged file
+The default structure with messy file extension
 
 ``` 
 ├── main.rb
