@@ -1,0 +1,21 @@
+$mainColor:#002b36;
+$secColor:#eee;
+
+body{
+	background: $secColor;
+}
+
+header{
+	padding-top: 2em;
+	margin: auto;
+	text-align: center;
+	width: 50%;
+}
+
+h1{
+	font-family: arial;
+	color: $mainColor;
+}
+h2{
+	@extend h1;
+}
