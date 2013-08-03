@@ -3,9 +3,6 @@ require 'slim'
 require 'sass'
 require 'sinatra/reloader' if development?
 
-# set :scss => 'views/sass/'
-
-# get('/css/styles.css'){ scss :styles }
 
 set :views, :scss => 'views/sass/', :default => 'views'
 
@@ -16,12 +13,6 @@ set :views, :scss => 'views/sass/', :default => 'views'
      super(folder, name, engine, &block)
    end
  end
-
-
-# get '/css/:name.css' do
-#   scss :styles
-# end
-
 
 get '/css/styles.css' do
 	scss :styles
